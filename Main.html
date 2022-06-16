@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        /* common style start */
+        *{
+            /* border : 1px solid gray; */
+            margin:5px;
+        }
+
+        /* common style end */
+
+
+
+
+        /* topmenu start */
+        #topmenu{
+            border:1px solid gray;
+        }
+
+        header{
+            height:30px;
+        }
+        header ul{
+            list-style-type: none;
+            margin:0px;
+        }
+        header ul li{
+            float:left;
+        }
+
+        nav{
+            height:50px;
+        }
+        nav ul{
+            list-style-type: none;  
+            text-align: center;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+
+        /* topmenu end */
+
+
+
+
+        /* content start */
+        #main-container{
+            height:500px;
+        }
+
+        /* content end */
+
+
+
+
+        /* footer start*/
+        footer{
+            height:300px;
+        }
+
+        /* footer end */
+
+        
+    </style>
+
+
+</head>
+<body>
+    <!-- 
+        header :    상단메뉴
+        nav :       nav메뉴
+        aside :     Content박스의 왼쪽 메뉴
+        section :   Content의 제목
+        article :   Content의 기사
+        footer :    footer항목 
+     -->
+     <div id="wrapper">
+        
+        <!-- topmenu -->
+        <div id="topmenu">
+            <!-- header -->
+            <header>
+                <ul>
+                    <li>1번header메뉴</li>
+                    <li>2번header메뉴</li>
+                    <li>3번header메뉴</li>
+                </ul>
+
+
+            </header>
+            <!-- nav -->
+            <nav>
+                <ul>
+                    <li>1번nav메뉴</li>
+                    <li>2번nav메뉴</li>
+                    <li>3번nav메뉴</li>
+                </ul>
+            </nav>
+
+        </div> 
+
+        <!-- contents.. -->
+        <div id="main-container">
+            Contents
+        </div>
+
+        <!-- footer -->
+        <footer>footer</footer>
+     </div>
+     
+
+
+
+</body>
+</html>
